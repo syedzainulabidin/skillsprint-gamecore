@@ -1,12 +1,3 @@
-"""
-Seed a demo fictional company: 10 job roles, sample documents, requirements,
-and role-requirement mappings so the app has a demo dataset without needing
-to click through the UI.
-
-Run from the backend directory:
-    venv\\Scripts\\python.exe scripts\\seed_demo.py
-"""
-
 import io
 import sys
 from pathlib import Path
