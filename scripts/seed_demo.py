@@ -12,6 +12,7 @@ from app.core.constants import (
     PRIORITIES,
     REQUIREMENT_TYPES,
 )
+
 from app.database.connection import Base, SessionLocal, engine
 from app.models import (  # noqa: F401
     Document,
