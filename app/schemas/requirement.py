@@ -10,7 +10,6 @@ from app.core.constants import (
     REQUIREMENT_TYPES,
 )
 
-
 class RequirementBase(BaseModel):
     req_code: str = Field(min_length=1, max_length=50)
     title: str = Field(min_length=1, max_length=255)

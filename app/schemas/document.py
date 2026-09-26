@@ -5,7 +5,6 @@ from pydantic import BaseModel, Field, field_validator
 
 from app.core.constants import DOCUMENT_TYPES
 
-
 class DocumentBase(BaseModel):
     doc_code: str = Field(min_length=1, max_length=50)
     name: str = Field(min_length=1, max_length=255)

@@ -5,7 +5,6 @@ from pydantic import BaseModel, EmailStr, Field, field_validator
 
 from app.core.constants import EXPERIENCE_LEVELS, SYSTEM_ROLES, TRAINING_STATUSES
 
-
 class UserBase(BaseModel):
     employee_id: str = Field(min_length=1, max_length=50)
     name: str = Field(min_length=1, max_length=100)
