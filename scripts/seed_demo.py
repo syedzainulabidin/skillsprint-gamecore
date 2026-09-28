@@ -6,7 +6,6 @@ requirements, employees - must be created through the running app.
 Run from the backend directory:
     venv\\Scripts\\python.exe scripts\\seed_demo.py
 """
-
 import sys
 from datetime import date
 from pathlib import Path
